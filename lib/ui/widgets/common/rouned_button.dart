@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:smooth_corner/smooth_corner.dart';
 import 'package:task_manager/ui/common/app_colors.dart';
-import 'package:task_manager/ui/widgets/common/custom_text/custom_text.dart';
+import 'package:task_manager/ui/widgets/common/custom_text.dart';
 
 class RoundedButton extends StatelessWidget {
   const RoundedButton(
@@ -74,8 +74,8 @@ class RoundedButton extends StatelessWidget {
           padding: EdgeInsets.zero,
           backgroundColor: backgroundColor,
           side: borderSide ?? const BorderSide(color: AppColors.brandColor),
-          maximumSize: Size(1.sw, 0.09.sh),
-          fixedSize: Size(0.92.sw, 0.56.h),
+          maximumSize: Size(1.sw, 56.h),
+          fixedSize: Size(0.92.sw, 49.h),
           shape: SmoothRectangleBorder(
               borderRadius: BorderRadius.circular(radius),
               smoothness: 1,

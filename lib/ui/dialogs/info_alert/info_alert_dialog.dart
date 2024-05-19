@@ -4,7 +4,7 @@ import 'package:stacked/stacked.dart';
 import 'package:stacked_services/stacked_services.dart';
 import 'package:task_manager/ui/common/app_colors.dart';
 import 'package:task_manager/ui/common/ui_helpers.dart';
-import 'package:task_manager/ui/widgets/common/custom_text/custom_text.dart';
+import 'package:task_manager/ui/widgets/common/custom_text.dart';
 import 'package:task_manager/ui/widgets/common/rouned_button.dart';
 
 import 'info_alert_dialog_model.dart';
@@ -47,8 +47,7 @@ class InfoAlertDialog extends StackedView<InfoAlertDialogModel> {
                 Expanded(
                   child: RoundedButton(
                     'No',
-                    backgroundColor: AppColors.lightGreyColor,
-                    fontColor: AppColors.textColor1,
+                    isFilled: false,
                     onTap: () {
                       completer(DialogResponse(confirmed: false));
                     },

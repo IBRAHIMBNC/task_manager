@@ -17,6 +17,7 @@ class AppStateService with ListenableServiceMixin {
   AppStateService() {
     init();
   }
+
   init() async {
     await fetchAllTasks();
     await fetchMyTasks();
@@ -27,7 +28,6 @@ class AppStateService with ListenableServiceMixin {
     final result = await _databaseService.getAllTodos();
     _allTasks.addAll(result);
     _allTasks.sort((a, b) => a.id.compareTo(b.id));
-    print('All tasks: ${_allTasks.length}');
     notifyListeners();
   }
 

@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:task_manager/ui/common/app_colors.dart';
 import 'package:task_manager/ui/common/ui_helpers.dart';
 import 'package:task_manager/ui/views/home/home_viewmodel.dart';
-import 'package:task_manager/ui/widgets/common/custom_text/custom_text.dart';
+import 'package:task_manager/ui/widgets/common/custom_text.dart';
 import 'package:task_manager/ui/widgets/home/task_card.dart';
 
 class MyTasksTab extends StatelessWidget {

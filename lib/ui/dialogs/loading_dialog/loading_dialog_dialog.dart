@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:task_manager/ui/common/app_colors.dart';
 import 'package:task_manager/ui/common/ui_helpers.dart';
 import 'package:stacked_services/stacked_services.dart';
-import 'package:task_manager/ui/widgets/common/custom_text/custom_text.dart';
+import 'package:task_manager/ui/widgets/common/custom_text.dart';
 
 const double _graphicSize = 60;
 

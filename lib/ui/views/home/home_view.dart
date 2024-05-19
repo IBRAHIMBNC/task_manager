@@ -5,7 +5,7 @@ import 'package:stacked/stacked.dart';
 import 'package:task_manager/ui/common/app_colors.dart';
 import 'package:task_manager/ui/common/app_strings.dart';
 import 'package:task_manager/ui/common/ui_helpers.dart';
-import 'package:task_manager/ui/widgets/common/custom_text/custom_text.dart';
+import 'package:task_manager/ui/widgets/common/custom_text.dart';
 import 'package:task_manager/ui/widgets/common/custom_textField.dart';
 import 'package:task_manager/ui/widgets/home/my_task_tab.dart';
 import 'package:task_manager/ui/widgets/home/paginated_task_tab.dart';

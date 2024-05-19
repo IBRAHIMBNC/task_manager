@@ -5,7 +5,7 @@ import 'package:task_manager/app/models/task.dart';
 import 'package:task_manager/ui/common/app_colors.dart';
 import 'package:task_manager/ui/common/app_icons.dart';
 import 'package:task_manager/ui/common/ui_helpers.dart';
-import 'package:task_manager/ui/widgets/common/custom_text/custom_text.dart';
+import 'package:task_manager/ui/widgets/common/custom_text.dart';
 
 class TaskCard extends StatelessWidget {
   const TaskCard(
