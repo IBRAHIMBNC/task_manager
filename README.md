@@ -1,6 +1,4 @@
-# task_manager
 
-This is a Flutter project for [brief description of your project].
 
 ## Getting Started
 
