@@ -8,7 +8,7 @@ To get started with this project, follow these steps:
 
 1. **Clone the Repository:**
 
-Replace `your-username` with your GitHub username and `your-repository` with the name of your GitHub repository.
+Replace `IBRAHIMBNC` with your GitHub username and `task_manager` with the name of your GitHub repository.
 
 2. **Install Flutter:**
 - Follow the official [Flutter installation guide](https://flutter.dev/docs/get-started/install) to install Flutter on your machine.
